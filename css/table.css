@@ -1,0 +1,56 @@
+.shown{
+	display: table-cell;
+}
+.hidden{
+	display: none;
+	border: none;
+	margin: 0;
+}
+.head-table__item_hidden{
+	display: none;
+	border: none;
+	margin: 0;
+}
+.head-table__item_shown{
+	display: table-cell;
+}
+.head-table__image_hidden{
+	display: none;
+}
+.head-table__image_shown{
+	display: table-cell;
+}
+.head-table td{
+	padding-right: 2rem;
+}
+.main-table{
+	width: 67%;
+	margin: 1.5rem auto;
+	padding: 3rem;
+	border-spacing: 1rem 1.5rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	border: 1px solid #3EAFF8;
+}
+.main-table ul{
+	padding-left: 1rem;
+}
+.sub-table{
+	width: 100%;
+	margin: 0;
+}
+.sub-table ul{
+	padding: 1rem 0 1rem 1rem;
+	font-size: 1rem;
+}
+.sub-table__title{
+	font-size: 1rem;
+	text-decoration: underline;
+}
+.sub-table__sub-title{
+	font-size: 0.8rem;
+	opacity: 0.7;
+}
+.sub-table__university{
+	text-transform: none;
+}
