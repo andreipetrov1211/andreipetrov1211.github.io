@@ -1,0 +1,15 @@
+$(document).ready(function() {
+ 
+ 
+   $("a.arrowUp").click(function() {
+      $("html, body").animate({
+         scrollTop: $($(this).attr("href")).offset().top + "px"
+      }, {
+         duration: 1200,
+         easing: "swing"
+      });
+      return false;
+   });
+ 
+ 
+});
