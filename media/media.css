@@ -1,0 +1,309 @@
+@media	(min-width: 1600px){
+	p{
+		font-size: 1.5rem;
+	}
+	.outro p{
+		font-size: 1.5rem;
+		padding-bottom: 1rem;
+	}
+	.card{
+		height: 20rem;
+		width: 20rem;
+	}
+	.card__image{
+		height: 20rem;
+		width: 20rem;
+	}
+	.card__name{
+		font-size: 1.3rem;
+	}
+	.outro{
+		width: 100%;
+	}
+}
+@media	(min-width: 1200px) and (max-width: 1399px){
+	.main__container{
+		padding: 5% 2% 10% 0;
+	}
+	.main__about p:first-child{
+		padding: 0 20% 0 20%;
+	}
+	.main__about{
+		padding: 8% 5% 10% 5%;
+	}
+}
+
+@media	(min-width: 992px) and (max-width: 1199px){
+	.main__container{
+		padding: 5% 2% 10% 0;
+	}
+	.main__photo{
+		height: 35rem;
+	}
+	.main__about{
+		padding: 5% 5% 10% 5%;
+	}
+	.card__name{
+		font-size: 0.9rem;
+	}
+	.outro{
+		width: 50%;
+	}
+	.head-table__item_hidden{
+		display: table-row;
+	}
+	.head-table__item_shown{
+		display: none;
+	}
+}
+
+@media	(min-width: 768px) and (max-width: 991px){
+	p{
+		font-size: 1rem;
+	}
+	.main__photo{
+		display: none;
+	}
+	.media-container{
+		margin: auto;
+	}
+	.main__photo_small{
+		display: block;
+		height: 15rem;
+		width: 15rem;
+		border-radius: 15rem;
+	}
+	.card{
+		height: 12rem;
+		width: 12rem;
+	}
+	.card__image{
+		height: 12rem;
+		width: 12rem;
+	}
+	.card__name{
+		font-size: 0.9rem;
+		letter-spacing:0.1rem;
+	}
+	.outro p{
+		width: 60%;
+		font-size: 1rem;
+		padding-bottom: 1rem;
+	}
+	.main-table{
+		width: 90%;
+		padding: 0.5rem;
+	}
+	.head-table__item_hidden{
+		display: table-row;
+	}
+	.head-table__item_shown{
+		display: none;
+	}
+}
+
+@media	(min-width: 481px) and (max-width: 767px){
+	html{
+		font-size: 0.8rem;
+	}
+	p{
+		font-size: 1.3rem;
+		line-height: 3rem;
+	}
+	.button{
+		height: 2rem;
+		width: 2rem;
+		border-radius: 2rem;
+	}
+	.header__title{
+		font-size: 3.2rem;
+		letter-spacing: 0.8rem;
+	}
+	.header__subtitle{
+		font-size: 1.2rem;
+	}
+	.main__about{
+		padding: 5% 8% 10% 8%;
+	}
+	.main__photo{
+		display: none;
+	}
+	.media-container{
+		margin: auto;
+	}
+	.main__photo_small{
+		display: block;
+		height: 15rem;
+		width: 15rem;
+		border-radius: 15rem;
+	}
+	.card{
+		height: 10rem;
+		width: 10rem;
+	}
+	.card:hover{
+		transform: none;
+	}
+	.card__image{
+		height: 10rem;
+		width: 10rem;
+	}
+	.card__name{
+		font-size: 1rem;
+		letter-spacing:0;
+	}
+	.outro p{
+		font-size: 1.3rem;
+		width: 60%;
+	}
+	.main-table{
+		width: 90%;
+		padding: 0.5rem;
+		font-size: 1.2rem;
+	}
+	.table__title{
+		background-color: #3EAFF8;
+	}
+	.sub-table {
+		font-size: 1.2rem;
+	}
+	.sub-table ul, th {
+		font-size: 1.2rem;
+	}
+	.head-table__item_hidden{
+		display: table-row;
+	}
+	.head-table__item_shown{
+		display: none;
+	}
+	.shown{
+	display: none;
+	}
+	.hidden{
+		display: table-row;
+	}
+}
+
+@media	(max-width: 480px){
+	html{
+		font-size: 0.5rem;
+	}
+	p{	
+		width: 100%;
+		font-size: 1.8rem;
+		line-height: 4rem;
+	}
+	.button{
+		height: 3rem;
+		width: 3rem;
+		border-radius: 3rem;
+	}
+	.header__title{
+		font-size: 5.5rem;
+	}
+	.header__subtitle{
+		font-size: 1.5rem;
+	}
+	.main p:first-child{
+		font-size: 2.5rem;
+	}
+	.main__about{
+		padding: 5% 5% 10% 5%;
+	}
+	.main__photo{
+		display: none;
+	}
+	.media-container{
+		margin: auto;
+	}
+	.main__photo_small{
+		display: block;
+		height: 20rem;
+		width: 20rem;
+		border-radius: 20rem;
+	}
+	.collection__title{
+		font-size: 6rem;
+		letter-spacing: 2rem;
+	}
+	.collection__subtitle{
+		font-size: 1.4rem;
+		letter-spacing: 0.5rem;
+	}
+	.collection__line{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.card{
+		height: 35rem;
+		width: 35rem;
+	}
+	.card:hover{
+		transform: none;
+	}
+	.card__image{
+		height: 35rem;
+		width: 35rem;
+	}
+	.card__name{
+		font-size: 1.8rem;
+		letter-spacing: 0.5rem;
+	}
+	.outro p{
+		width: 80%;
+		font-size: 1.8rem;
+	}
+	.footer__information{
+		font-size: 1.5rem;
+		padding-bottom: 1rem;
+	}
+	.footer__information:first-child{
+		font-size: 1.9rem;
+	}
+	i{
+		font-size: 2.5rem;
+	}
+	.main-table{
+		width: 100%;
+		padding: 1rem;
+		font-size: 1.6rem;
+	}
+	.sub-table {
+		font-size: 1.2rem;
+	}
+	.sub-table ul, th, td {
+		font-size: 1.6rem;
+	}.sub-table ul {
+		padding-left: 2rem;
+	}
+	.head-table__item_hidden{
+		display: table-row;
+	}
+	.head-table__item_shown{
+		display: none;
+	}
+	.head-table__image_shown{
+		display: none;
+	}
+	.head-table__image_hidden{
+		display: table-row;
+	}
+	.shown{
+	display: none;
+	}
+	.hidden{
+		display: table-row;
+	}
+	.table__title {
+		font-size: 2rem;
+	}
+	.sub-table__title{
+		font-size: 1.8rem;
+		background-color: #3EAFF8;
+	}
+	.sub-table__sub-title{
+		font-size: 1.1rem;
+	}
+
+}
