@@ -46,8 +46,8 @@
 	.card__name{
 		font-size: 0.9rem;
 	}
-	.outro{
-		width: 50%;
+	.outro p{
+		width: 45%;
 	}
 	.head-table__item_hidden{
 		display: table-row;
@@ -229,12 +229,15 @@
 		width: 20rem;
 		border-radius: 20rem;
 	}
+	.collection__container{
+		height: 30rem;
+	}
 	.collection__title{
 		font-size: 6rem;
 		letter-spacing: 2rem;
 	}
 	.collection__subtitle{
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 		letter-spacing: 0.5rem;
 	}
 	.collection__line{
@@ -256,6 +259,9 @@
 	.card__name{
 		font-size: 1.8rem;
 		letter-spacing: 0.5rem;
+	}
+	.outro{
+		padding: 3rem 0;
 	}
 	.outro p{
 		width: 80%;
@@ -292,7 +298,6 @@
 		padding-left: 2rem;
 		font-size: 1.8rem;
 		text-align: left;
-
 	}
 	.head-table__item_hidden{
 		display: table-row;
